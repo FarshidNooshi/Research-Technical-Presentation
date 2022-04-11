@@ -214,7 +214,7 @@
 
 \def\signature{\vspace{1cm}
 \begin{flushleft}
-{\nastaliq \scriptsize \fname\ \lname \\
+{\nastaliq \small \fname\ \lname \\
 \datethesis}
 \end{flushleft}}
 

@@ -10,6 +10,8 @@
 %%   http://forum.parsilatex.com
 %% 
 %% 
+\usepackage{tikz}
+\usetikzlibrary{calc}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{AUTthesis}
               [08/04/2012 v0.4
@@ -61,13 +63,24 @@
 \ProcessOptions
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\AUTtitle}{\begin{titlepage}
+  \begin{tikzpicture}[remember picture,overlay,inner sep=0,outer sep=0]
+       \draw[black!70!black,line width=4pt] ([xshift=-1.5cm,yshift=-1cm]current page.north east) coordinate (A)--([xshift=1.5cm,yshift=-1cm]current page.north west) coordinate(B)--([xshift=1.5cm,yshift=2cm]current page.south west) coordinate (C)--([xshift=-1.5cm,yshift=2cm]current page.south east) coordinate(D)--cycle;
+  
+       \draw ([yshift=0.5cm,xshift=-0.5cm]A)-- ([yshift=0.5cm,xshift=0.5cm]B)--
+       ([yshift=-0.5cm,xshift=0.5cm]B) --([yshift=-0.5cm,xshift=-0.5cm]B)--([yshift=0.5cm,xshift=-0.5cm]C)--([yshift=0.5cm,xshift=0.5cm]C)--([yshift=-0.5cm,xshift=0.5cm]C)-- ([yshift=-0.5cm,xshift=-0.5cm]D)--([yshift=0.5cm,xshift=-0.5cm]D)--([yshift=0.5cm,xshift=0.5cm]D)--([yshift=-0.5cm,xshift=0.5cm]A)--([yshift=-0.5cm,xshift=-0.5cm]A)--([yshift=0.5cm,xshift=-0.5cm]A);
+  
+  
+       \draw ([yshift=-0.3cm,xshift=0.3cm]A)-- ([yshift=-0.3cm,xshift=-0.3cm]B)--
+       ([yshift=0.3cm,xshift=-0.3cm]B) --([yshift=0.3cm,xshift=0.3cm]B)--([yshift=-0.3cm,xshift=0.3cm]C)--([yshift=-0.3cm,xshift=-0.3cm]C)--([yshift=0.3cm,xshift=-0.3cm]C)-- ([yshift=0.3cm,xshift=0.3cm]D)--([yshift=-0.3cm,xshift=0.3cm]D)--([yshift=-0.3cm,xshift=-0.3cm]D)--([yshift=0.3cm,xshift=-0.3cm]A)--([yshift=0.3cm,xshift=0.3cm]A)--([yshift=-0.3cm,xshift=0.3cm]A);
+  
+     \end{tikzpicture}
 %\topmargin=-30pt
-\vspace{-1cm}\centerline{{\includegraphics[height=3.8cm]{fa-logo}}}
-\vspace{-1cm}
-{\bf{\fontsize{16pt}{16pt}\selectfont دانشگاه صنعتی امیرکبیر}\par
-\vspace{-1cm}\fontsize{14pt}{15pt}\selectfont(پلی‌تکنیک تهران)\par
+\vspace{0.5cm}\centerline{{\includegraphics[height=3.8cm]{fa-logo}}}
+\vspace{0.5cm}
+{\bf{\fontsize{16pt}{16pt}\selectfont امیرکبیر صنعتی دانشگاه}\par
+\vspace{-1.55cm}\fontsize{14pt}{15pt}\selectfont(پلی‌تکنیک تهران)\par
 \vspace{-1cm}\fontsize{16pt}{17pt}\selectfont\@faculty}\par
-%\vskip 1.5cm
+% \vskip 1.5cm
 {\fontsize{16pt}{14pt}\selectfont\bfseries
 \if@mscthesis
 پایان نامه ی کارشناسی ارشد
@@ -94,12 +107,12 @@
  \vspace{1cm}
 {\fontsize{20pt}{21pt}\selectfont\bfseries {\ftitle}}\par
 \vskip .5cm
- {\fontsize{16pt}{17pt}\selectfont\bfseries%
+ {\fontsize{16pt}{17pt}\selectfont%
   \by}\par
 \par
 \vspace*{-0.8cm}
 {\fontsize{18pt}{19pt}\selectfont\bfseries{\fname \lname}}\par
-\fontsize{16pt}{17pt}\selectfont\bfseries
+\fontsize{16pt}{17pt}\selectfont
 {\ifx\ffirstsupervisor\undefined%
 \ifx\fsecondsupervisor\undefined%
 \else\fi
@@ -137,7 +150,7 @@
 
 \vskip 6mm
 
-{\fontsize{16pt}{17pt}\selectfont \datethesis}
+{\fontsize{14pt}{14pt}\selectfont \datethesis}
 
 \end{titlepage}%
 \newpage

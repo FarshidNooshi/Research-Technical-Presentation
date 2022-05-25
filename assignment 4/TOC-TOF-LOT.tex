@@ -5,11 +5,12 @@
 \cleardoublepage
 \pagestyle{style6}
 \tableofcontents
+\addtocontents{toc}{\tocheading}% add heading to the first page in ToC, after frontmatter entries
 \pagestyle{style6}
 \cleardoublepage
 
 %اگر لیست تصاویر و لیست جداول ندارید ، کدهای زیر را با گذاشتن % در ابتدای آنها، غیرفعال کنید.
-\BeginNoToc 
+\BeginNoToc
 %============
 \addtocontents{lof}{\lofheading}% add heading to the first page in LoF
 \pagestyle{style5}
@@ -27,5 +28,4 @@
 \cleardoublepage
 \setcounter{savepage}{\arabic{page}}
 \mainmatter
-\addtocontents{toc}{\tocheading}% add heading to the first page in ToC, after frontmatter entries
 \EndNoToc

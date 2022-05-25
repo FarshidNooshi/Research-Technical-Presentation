@@ -31,32 +31,31 @@
 % سپاسگزاری را در فایل زیر بنویسید.
 \input{acknowledgement}
 % دستور زیر برای شماره گذاری صفحات قبل از فصل اول با حروف ابجد است.
-\pagenumbering{alph}
+\pagenumbering{harfi}
 %-----------------------------------------------------------------------------
 % فایل زیر دستورات مربوط به نمایش صفحات فهرست مطالب- فهرست اشکال و جداول است.
 \input{TOC-TOF-LOT}
 % در صورت تمایل می‌توانید با فعال کردن دستور بالا، لیست تصاویر را به  پایان‌نامه خود اضافه کنید.
 %-------------------------------------------------------------------------symbols(فهرست نمادها)
 % وجود لیست نمادها الزامیست.(لطفاً نمادهای خود را جایگذین نمادهای پیش‌فرض کنید.)
-% \input{list-of-symbols}
+\input{list-of-symbols}
 
 \pagenumbering{arabic}
 \pagestyle{style1}
 %--------------------------------------------------------------------------chapters(فصل ها)
-\include{chapter0}
 \include{chapter1}
 \include{chapter2}
 \include{chapter3}
 \include{chapter4}
-% \include{chapter0}
+\include{chapter5}
 
 %--------------------------------------------------------------------------appendix( مراجع و پیوست ها)
 \chapterfont{\vspace*{-2em}\centering\LARGE}%
 
-% \appendix
+\appendix
 \bibliographystyle{unsrt-fa}
 \bibliography{references}
-%\include{appendix1}
+% \include{appendix1}
 %--------------------------------------------------------------------------dictionary(واژه نامه ها)
 %اگر مایل به داشتن صفحه واژه‌نامه نیستید، خط زیر را غیر فعال کنید.
 % \parindent=0pt

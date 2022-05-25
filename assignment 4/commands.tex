@@ -80,7 +80,7 @@
 % تعریف قلم‌های فارسی اضافی برای استفاده در بعضی از قسمت‌های متن
 \defpersianfont\nastaliq[Scale=2]{IranNastaliq}
 \defpersianfont\chapternumber[Scale=3]{B Nazanin}
-%\chapterfont{\centering}%
+% \chapterfont{\centering}%
 %%%%%%%%%%%%%%%%%%%%%%%%%% 
 % دستوری برای تغییر نام کلمه «اثبات» به «برهان»
 \renewcommand\proofname{\textbf{برهان}}
@@ -159,6 +159,7 @@
 \if@mainmatter
 
 \bfseries{\Huge \@chapapp}\small\space {\chapternumber\thechapter}
+\thispagestyle{empty}
 \par\nobreak
 \vskip 0\p@
 \fi
@@ -169,7 +170,6 @@
 
 }
 
-%\thispagestyle{empty}
 \newpage}
 \bidi@patchcmd{\@makechapterhead}{\thechapter}{\tartibi{chapter}}{}{}
 \bidi@patchcmd{\chaptermark}{\thechapter}{\tartibi{chapter}}{}{}
@@ -218,7 +218,7 @@
   \fancyhf{}%
   \fancyhead[R]{فهرست مطالب}
   \fancyfoot[C]{\thepage}%
-  \hypersetup{linkcolor=black}
+  \hypersetup{linkcolor=black, citecolor=black}
   \renewcommand{\headrulewidth}{1.2pt}%
 }
 

@@ -105,13 +105,13 @@
 %  \onvan}\par
 \par
  \vspace{1cm}
-{\fontsize{20pt}{21pt}\selectfont\bfseries {\ftitle}}\par
+{\fontsize{24pt}{25pt}\selectfont\bfseries {\ftitle}}\par
 \vskip .5cm
  {\fontsize{15.5pt}{17pt}\selectfont\bfseries%
   \by}\par
 \par
 \vspace*{-1.3cm}
-{\fontsize{18pt}{19pt}\selectfont\bfseries{\fname \lname}}\par
+{\fontsize{20pt}{21pt}\selectfont\bfseries{\fname \lname}}\par
 \fontsize{15.5pt}{17pt}\selectfont\bfseries
 {\ifx\ffirstsupervisor\undefined%
 \ifx\fsecondsupervisor\undefined%
@@ -120,7 +120,7 @@
 \ifx\fsecondsupervisor\undefined%
 استاد راهنما
 \vspace*{-1.3cm}
-{\fontsize{18pt}{19pt}\selectfont\bfseries\par
+{\fontsize{20pt}{21pt}\selectfont\bfseries\par
 \ffirstsupervisor}
 \else
 \fontsize{16pt}{17pt}\selectfont\bfseries

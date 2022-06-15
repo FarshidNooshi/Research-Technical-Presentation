@@ -158,7 +158,7 @@
 \ifnum \c@secnumdepth >\m@ne
 \if@mainmatter
 
-\bfseries{\Huge \@chapapp}\small\space {\chapternumber\thechapter}
+\centering\bfseries{\Huge \@chapapp}\small\space {\chapternumber\thechapter}
 \thispagestyle{empty}
 \par\nobreak
 \vskip 0\p@
@@ -176,7 +176,7 @@
 \makeatother
 
 \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{\chaptername~\tartibi{chapter}: #1}{}}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername~\tartibi{chapter} - #1}{}}
 
 \fancypagestyle{style1}{
 \fancyhf{} 

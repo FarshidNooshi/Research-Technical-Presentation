@@ -12,11 +12,11 @@ This repository is for my research and technical presentation course at the Amir
 - 4and6andFinal.md: the fourth and sixth assignment with the final report
 - 5andFinal.md: the fifth assignment and final slides
 - assignment7.md: the seventh assignment
-- assignment8.md: the eighth assignment which is creation of CV and the final CV is in a separate repository so this repository is not included here and this markdown file is not included in the current repository
+- assignment8.md: the eighth assignment is creation of a CV and the final CV is in a separate repository so this repository is not included here and this markdown file is not included in the current repository
 
 # Introduction
 
-The purpose of this course is to develop students’ skills for conducting research and presenting the results effectively. Steps in doing research are discussed and appropriate presentation of the results in both oral and written forms is taught. Each student practices the lessons with selecting a topic and doing different taught steps during the semester. Students get familiar with software tools aiding in research and in written and oral presentations.
+The purpose of this course is to develop students’ skills for conducting research and presenting the results effectively. Steps in doing research are discussed and appropriate presentation of the results in both oral and written forms is taught. Each student practices the lessons by selecting a topic and doing different taught steps during the semester. Students get familiar with software tools aiding in research and in written and oral presentations.
 The topics in this course are:
 
 - **Introduction**
@@ -70,5 +70,5 @@ The topics in this course are:
 
 # Instructor
 
-this course is taught by:
+The Research and Technical Presentation course in Spring 2022 at the Computer Engineering Department in Amirkabir University of Technology is taught by:
 [**Prof. Reza Safabakhsh**](https://scholar.google.com/citations?user=zFsdqo8AAAAJ&hl=en)

@@ -3,8 +3,8 @@
 </div>
 
 # Research and Technical Presentation
-[![License: APACHE-2.0](https://img.shields.io/github/license/FarshidNooshi/Research-Technical-Presentation)](https://opensource.org/licenses/Apache-2.0)
-![GitHub contributors](https://img.shields.io/github/contributors/FarshidNooshi/Research-Technical-Presentation)
+[![License: APACHE-2.0](https://img.shields.io/github/license/FarshidNooshi/Research-Technical-presentation)](https://opensource.org/licenses/Apache-2.0)
+![GitHub contributors](https://img.shields.io/github/contributors/FarshidNooshi/Research-Technical-presentation)
 
 # Abstract
 This repository is for my research and technical presentation course at the Amirkabir University of Technology and contains the following files:

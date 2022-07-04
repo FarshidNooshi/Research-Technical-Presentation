@@ -75,3 +75,6 @@ The topics in this course are:
 
 The Research and Technical Presentation course in Spring 2022 at the Computer Engineering Department in Amirkabir University of Technology is taught by:
 [**Prof. Reza Safabakhsh**](https://scholar.google.com/citations?user=zFsdqo8AAAAJ&hl=en)
+
+# Contributors
+* [Farshid Nooshi](https://ce.aut.ac.ir/~Farshid_Nooshi/)
